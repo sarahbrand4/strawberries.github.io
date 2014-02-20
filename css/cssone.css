@@ -14,7 +14,7 @@ header {
     width: 40em;
     margin-top: 30px;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: auto;
     text-align:center;
 }
@@ -30,8 +30,6 @@ article {
     background-color: #FFF5FF;
     margin: 0 40px 0 40px; 
     padding: 5px 0 5px 0;
-    border: hidden;
-    border-radius: 3px;
 }
 
 
@@ -46,51 +44,117 @@ footer {
 /* HEADER RULES */
 
 header h1 {
-    font-family: "helvetica", "arial", sans-serif;
+    font-family: "Helvetica Neue", "arial", sans-serif;
     font-size: 55px;
     color: #000000;
     text-decoration:none;
     font-weight: lighter;
 }
 
+/* NAV RULES */
+
+nav a {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    line-height:20px;
+    font-weight: lighter;
+    
+}
+
+/* ARTICLE RULES */
+
+article h2 {
+    margin: 5px 5px 5px 5px;
+    float: left;
+    width: 40%;
+    font-family: "Helvetica Neue", "arial", sans-serif;
+    font-size: 30px;
+    color: #000000;     
+    font-weight: lighter;
+    
+}
+
+article h3 {
+    margin: 5px 5px 5px 5px;
+    clear: both;
+    width: 40%;
+    font-family: "Helvetica Neue", "arial", sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: lighter;
+    
+}
+
 /* DIV RULES */
 
 #wrapper {
-
-
-
+    margin: 0 5px 0 5px;
+    padding: 20px 20px 20px 20px;
+    background-color: #E15B58;
+    overflow: hidden;
+    
     
 }
 
 /* PARAGRAPH RULES */
 
 article p {
-    font-family: "Fauna One", serif;
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+    font-family: "Helvetica Neue", sans-serif;
     color: #000000;
-    font-size: 16px;
-    line-height:18px;
+    font-size: 20px;
+    line-height:20px;
+    text-align: center;
     
 }
 
 footer p {
     font-family: "Gill Sans", serif;
-    color: ##000000;
+    color: #000000;
     margin: 0 40px 0 40px;
     font-size: 14px;
     line-height:14px;
 }
-    
+
+/* IMG RULES */
+
+img {
+    float: right;
+    width: 50%;
+    margin-top: 2px    
+
+}
 
 /* LIST RULES */
+
+article ul {
+    float: left;
+    width: 45%;
+    background-color: #E15B58
+    
+}
+
+article ol {
+    clear: both;
+    width: 40%%;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    
+}
 
 article li {
     list-style-type: none;
     font-family: "Fauna One", serif;    
     padding-top: 5px;
-    margin: 0 50px 5px 50px;
+    margin: 2px 50px 0px 50px;
+    clear: both;
     font-size:16px;
     line-height: 18px;
-    color: ##000000;
+    color: #000000;
+    text-align: center;
 
 }
 
@@ -99,15 +163,15 @@ article li {
 
 nav a:link, nav a:visited {
     padding: 0 16px;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 
 }
 
 nav a:hover, nav a:active {
-    background-color: #91C3CF;
+    background-color: #A8130F;
     text-decoration: none;
-    color:#000000;
+    color:#FFF5FF;
 }
 
 ul a:link {
@@ -138,8 +202,19 @@ ol a:hover {
     text-decoration:underline;
 }
 
-  
+p a:link {
+    color: #E15B58;
+    text-decoration: none;
+}
 
+p a:visited {
+    color:#A8130F;
+}
+
+p a:hover {
+    color:#DB1814;
+    text-decoration:none;
+}
 
  
 
