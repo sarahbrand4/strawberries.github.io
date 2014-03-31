@@ -10,6 +10,7 @@ article, aside, figcaption, figure, footer, header, nav, section
 
 body {
     background-color: #FFF5FF;
+    font-size: 100%;
 
 }
 
@@ -121,9 +122,8 @@ article p {
     margin-top: 10px;
     font-family: "Gilda Display", serif;
     color: #000000;
-    font-size: 20px;
-    line-height:20px;
-    text-align: center;
+    font-size: 100%;
+    line-height: 1.4em;
     
 }
 
@@ -177,10 +177,7 @@ article li {
 /* TABLE RULES */
 
 #left table {
-    border: 1px;
-    border-style: solid;
-    border-color: #000000;
-    
+    border-collapse: collapse;    
 }
 
 
